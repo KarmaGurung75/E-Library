@@ -1,17 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import type { FormProps } from "antd";
-import {
-  Button,
-  Card,
-  Col,
-  Flex,
-  Form,
-  Input,
-  Row,
-  Select,
-  Upload,
-} from "antd";
-import { BsCloudPlus } from "react-icons/bs";
+import { Button, Card, Col, Form, Input, Row } from "antd";
 import { useNavigate } from "react-router-dom";
 
 type FieldType = {

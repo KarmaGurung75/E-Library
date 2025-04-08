@@ -15,10 +15,10 @@ interface DataType {
   available: number;
 }
 
-const handelUpdate = () => {
-  const navigate = useNavigate();
-  return navigate("/books/edit");
-};
+// const handelUpdate = () => {
+//   const navigate = useNavigate();
+//   return navigate("/books/edit");
+// };
 
 const columns: TableProps<DataType>["columns"] = [
   {
@@ -55,7 +55,7 @@ const columns: TableProps<DataType>["columns"] = [
   {
     title: "Action",
     key: "action",
-    render: (_, record) => (
+    render: (_) => (
       <Space size="middle">
         <Flex wrap gap="small">
           <Tooltip title="Edit">

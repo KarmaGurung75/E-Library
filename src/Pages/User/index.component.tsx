@@ -82,7 +82,7 @@ const columns: TableProps<DataType>["columns"] = [
   {
     title: "Action",
     key: "action",
-    render: (_, record) => (
+    render: (_) => (
       <Space size="middle">
         <Flex wrap gap="small">
           <Tooltip title="edit">

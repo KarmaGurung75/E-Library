@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Card, Col, Row } from "antd";
-import path from "path";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { MdMenuBook } from "react-icons/md";
 import { MdCategory } from "react-icons/md";
